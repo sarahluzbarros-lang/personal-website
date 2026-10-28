@@ -26,11 +26,28 @@ h1 {
     margin-bottom: 30px;
 }
 
-/* Requisito: Seletor de ID exclusivo para o título principal */
+/* --- Hierarquia de Títulos --- */
+h1 {
+    font-size: 2.4rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Cor específica para o Título Principal (H1) */
 #titulo-principal {
-    color: #000000;
-    border-bottom: 3px solid #000000;
+    color: #1a252f; /* Tom escuro e elegante */
+    border-bottom: 3px solid #3498db;
     padding-bottom: 12px;
+}
+
+h2 {
+    font-size: 1.4rem;
+    /* Cor diferente para os Subtítulos (H2), garantindo a distinção visual exigida */
+    color: #2980b9; /* Tom azulado distinto do H1 */
+    margin-top: 35px;
+    margin-bottom: 15px;
+    border-left: 4px solid #3498db;
+    padding-left: 10px;
 }
 
 h2 {
